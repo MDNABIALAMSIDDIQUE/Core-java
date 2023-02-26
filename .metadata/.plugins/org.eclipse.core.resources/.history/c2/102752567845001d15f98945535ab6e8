@@ -1,0 +1,19 @@
+package test;
+
+import java.util.Scanner;
+
+public class Beep {
+public static void main(String[] args) {
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("Ente Area Number");
+	float ar = scanner.nextFloat();
+	float pi=3.14f;
+	float r = 0;
+	 ar=pi*r*r;
+	 System.out.println(ar);
+	
+	
+}
+}

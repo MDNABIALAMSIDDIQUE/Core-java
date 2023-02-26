@@ -1,0 +1,53 @@
+package test;
+
+import java.util.Scanner;
+
+public class IfElseIfDemo {
+
+	public static void main(String[] args)   {
+		
+		Scanner scanner=new Scanner(System.in);
+		
+		System.out.println("Enter the your % Number" );
+		double p = scanner.nextInt();
+		
+		try {
+			if (p<35) 
+				{
+					
+					System.out.println("Fail");
+				}
+			else if (p>=35 && p<50)
+				{
+					
+					System.out.println("Grade D");
+					
+				}
+			else if (p>=50 && p<70)
+				{
+					System.out.println("Grade C");
+				}
+			else if (p>=70 && p<80)
+				{
+					System.out.println("Grade B");
+				}
+				
+			else if (p>=80 && p<90) 
+				{
+					System.out.println("Gread A");
+				}
+			else if (p>=90 && p<=100) 
+					{
+						System.out.println("Grad A+");
+					}
+			else 
+					{
+						System.out.println("Wong Input");
+					}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+	}
+

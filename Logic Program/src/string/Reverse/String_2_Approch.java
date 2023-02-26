@@ -1,0 +1,25 @@
+package string.Reverse;
+
+import java.util.Scanner;
+
+public class String_2_Approch {
+	
+	public static void main(String[] args) {
+		System.out.println("***************************************************");
+		System.out.println("Welcome To This Program");
+		System.out.println("***************************************************");
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the Any Words");
+		String string=scanner.nextLine();
+		System.out.println("***************************************************");
+		System.out.println(string);
+		System.out.println("***************************************************");
+		
+		for(int i = string.length()-1; i>=0;i--) {
+			System.out.print(string.charAt(i));
+		}
+	}
+
+}

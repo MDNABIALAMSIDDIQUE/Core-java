@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;reverse.string.com&apos; to &apos;Interview Qustion/src&apos;&#x0D;&#x0A;- Original project: &apos;Reverse String&apos;&#x0D;&#x0A;- Destination element: &apos;Interview Qustion/src&apos;&#x0D;&#x0A;- Original element: &apos;Reverse String/src/reverse.string.com&apos;" description="Copy package" destination="=Interview Qustion/src" element1="/src&lt;reverse.string.com" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1676926537664" version="1.0"/>
+</session>

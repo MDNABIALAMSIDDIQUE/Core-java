@@ -1,0 +1,19 @@
+package string.Reverse;
+
+import java.util.Scanner;
+
+public class StringReverse_Program {
+	
+	public static void main(String[] args) {
+		System.out.println("***************************************************");
+		System.out.println("Welcome To This Program");
+		System.out.println("***************************************************");
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the Any Words");
+		String string=scanner.nextLine();
+		System.out.println(string);
+	}
+
+}

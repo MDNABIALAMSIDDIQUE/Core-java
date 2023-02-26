@@ -1,0 +1,26 @@
+package test;
+
+import java.util.Scanner;
+
+public class FibonacciNumber {
+	
+	
+		public static void main(String[] args) {
+			
+			System.out.println("=============================");
+			Scanner scanner= new Scanner(System.in);
+			System.out.println("Enter the Count Number");
+			System.out.println("=============================");
+			int num3= scanner.nextInt();
+			int num1=0,num2=1;
+			
+			System.out.println(num1+" "+num2);
+			for (int i = 2; i < num3; i++) {
+				num3=num1+num2;
+				System.out.println(" "+num3);
+				
+			}
+			
+		}
+
+}

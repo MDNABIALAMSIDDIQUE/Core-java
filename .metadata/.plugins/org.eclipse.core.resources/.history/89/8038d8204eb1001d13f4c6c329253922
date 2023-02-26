@@ -1,0 +1,47 @@
+package reverse.string.com;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class ReverseString_01 {
+	public static void main(String[] args) {
+	/*	
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter the Any String ....");
+		String string=scanner.nextLine();
+		
+		try {
+			System.out.println("I am Catch try...");
+			BufferedReader bufferedReader= new BufferedReader(new InputStreamReader(System.in));
+			string=bufferedReader.readLine();
+			char[] rev=string.toCharArray();
+			for (int i = rev.length-1; i >= 0; i--) {
+				System.out.println(rev[i]);
+				
+			}
+			
+			
+		} 
+		catch (Exception e) {
+			System.out.println("I am Catch Bloack...");
+			e.printStackTrace();
+		}
+		*/
+		 String input="";
+	        System.out.println("Enter the input string");
+		try {
+			 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	            input = br.readLine();
+	            char[] try1= input.toCharArray();
+	            for (int i=try1.length-1;i>=0;i--)
+	            System.out.print(try1[i]);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

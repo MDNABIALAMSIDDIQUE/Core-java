@@ -1,0 +1,20 @@
+package linkedList;
+import java.util.*;
+public class LinkList_Program {
+	public static void main(String[] args) {
+	
+		LinkedList linkedList= new LinkedList();
+		linkedList.add("MD NABI ALAM");
+		linkedList.add("BCA");
+		linkedList.add("PATNA");
+		
+		System.out.println(linkedList);
+		linkedList.remove(1);
+		linkedList.removeFirst();
+		linkedList.removeLast();
+		System.out.println(linkedList);
+		
+		
+	}
+
+}
