@@ -1,0 +1,19 @@
+package march.com;
+
+import java.util.Scanner;
+
+public class RepeatedWord {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter any Word....");
+		String wordString=scanner.nextLine();
+		for(char i:wordString.toCharArray()) {
+			if (wordString.indexOf(i) == wordString.lastIndexOf(i)) {
+				System.out.println("this word Not repeted word  : --> "+i);
+			}
+		}
+	}
+
+}

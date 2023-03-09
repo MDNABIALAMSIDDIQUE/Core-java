@@ -1,0 +1,22 @@
+package core.com;
+
+public class ChildThred  extends Thread{
+	
+	public void run() {
+		System.out.println("I am Child Thred...");
+	}
+	}
+	
+	class MainThred{
+		
+		public static void main(String[] args) {
+			 ChildThred childThred= new ChildThred();
+			 childThred.start();
+			 
+			 public static void m1(){
+					System.out.println("I am in main thread");
+				} 
+		}
+	}
+
+

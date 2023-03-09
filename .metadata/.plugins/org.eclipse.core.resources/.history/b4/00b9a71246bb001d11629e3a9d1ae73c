@@ -1,0 +1,16 @@
+package core.com;
+
+class ChildThred extends Thread{
+	
+	public void rub() {
+		System.out.println("i am Child Thred...");
+	}
+}
+
+
+
+public class MainThred {
+	
+	
+
+}

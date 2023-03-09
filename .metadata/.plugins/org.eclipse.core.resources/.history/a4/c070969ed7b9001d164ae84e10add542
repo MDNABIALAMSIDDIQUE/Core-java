@@ -1,0 +1,12 @@
+package strem.com.api;
+
+public class Employee {
+		
+		private int id;
+		private String name;
+		private int age;
+		private String gender;
+		private String department;
+		
+		
+}

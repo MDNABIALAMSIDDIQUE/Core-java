@@ -1,0 +1,9 @@
+package core.com;
+
+public class ChildThred  extends Thread{
+	
+	public void run() {
+		System.out.println("I am Child Thred...");
+	}
+
+}

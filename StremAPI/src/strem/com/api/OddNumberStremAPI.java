@@ -1,0 +1,13 @@
+package strem.com.api;
+
+import java.util.Arrays;
+
+public class OddNumberStremAPI {
+	
+	public static void main(String[] args) {
+		
+		int [] number= {2,5,6,3,3,9,7,1,33};
+		Arrays.stream(number).filter(n -> n % 2 !=0).forEach(System.out ::println);
+	}
+
+}
